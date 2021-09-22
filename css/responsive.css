@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 15, 2019, 8:23:17 PM
+    Author     : Nahid
+*/
+/*extra small*/
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-nav .nav-link{
+        display: inline-block;
+    }
+    .navbar-light .navbar-nav li{
+        text-align: right;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+    .slider{
+        height: 520px;
+    }
+    .slider_txt{
+        top: 65%;
+        right:12px;
+    }
+    .slider_txt h2{
+        font-size: 27px;
+        line-height: 15px;
+    }
+    .slider_txt p{
+        font-size: 20px;
+        line-height: 20px;
+        width: 75%;
+    }
+    .about{
+        padding-top: 0;
+    }
+    .about h6{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .ser_txt h5{
+        font-size: 13px;
+    }
+    .ser_s h5{
+        font-size: 14px;
+    }
+    .ser_s h5 span{
+        padding: 0 65px;
+    }
+    .work_text h5{
+        width: 100%;
+        font-size: 14px;
+    }
+    .fot_bot_r ul li i{
+        padding: 5px 6px;
+        font-size: 12px;
+    }
+    .sticky_menu{
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .sticky_menu{
+        padding: 10px 30px;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        display: inline-block;
+    }
+    .navbar-light .navbar-nav li{
+        text-align: right;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 15px;
+    }
+    .slider{
+        height: 650px;
+    }
+    .slider_txt{
+        top: 57%;
+    }
+    .slider_txt h2{
+        font-size: 35px;
+    }
+    .slider_txt p{
+        font-size: 35px;
+        line-height: 32px;
+        width: 75%;
+    }
+    .ser_s h5{
+        font-size: 14px;
+    }
+    .ser_s h5 span{
+        padding: 0 165px;
+    }
+    .work_text h5{
+        width: 95%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link{
+        display: inline-block;
+    }
+    .navbar-light .navbar-nav li{
+        text-align: right;
+    }
+    .slider_txt{
+        right: 10px;
+        bottom: 90px;
+    }
+    .slider_txt p{
+        width: 80%;
+    }
+    .ser_s h5{
+        font-size: 14px;
+    }
+    .work_text h5{
+        width: 100%;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-light .navbar-nav .nav-link{
+        display: inline-block;
+    }
+    .navbar-light .navbar-nav li{
+        text-align: right;
+    }
+    .slider_txt{
+        right: 10px;
+        bottom: 120px;
+    }
+    .ser_s span{
+        padding: 0 145px;
+    }
+}
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,456 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2019, 8:33:36 PM
+    Author     : Nahid
+*/
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: "Myriad pro";
+}
+/*mm*/
+.f_nav{
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 30px;
+    transition: all .6s linear;
+}
+.m_menu{
+    /*    padding-top: 30px;*/
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: transparent;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 8px 10px;
+    margin: 0 2px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left:  2px solid transparent;
+    border-right:  2px solid transparent;
+    color: #ffffff;
+    transition: all .5s linear;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+    color: white;
+    border-color: #028794;
+}
+.navbar-light .navbar-toggler{
+    border-color: #028794;
+    color: transparent;
+}
+/*mmm*/
+.slider{
+    background: url(../images/banner.jpg) left top no-repeat;
+    background-size: cover;
+    height: 822px;
+    position: relative;
+    z-index: 1;
+}
+.slider2{
+    background: url(../images/banner_1.jpg) left top no-repeat;
+    background-size: cover;
+}
+.slider3{
+    background: url(../images/banner_2.jpg) left top no-repeat;
+    background-size: cover;
+}
+.slider4{
+    background: url(../images/banner_3.jpg) left top no-repeat;
+    background-size: cover;
+}
+.slider5{
+    background: url(../images/banner_4.jpg) left top no-repeat;
+    background-size: cover;
+}
+.slider:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.58);
+}
+.slider_txt{
+    position: absolute;
+    right: 0;
+    bottom: 135px;
+    text-align: right;
+}
+.slider_txt h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+.slider_txt p{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 35px;
+    width: 55%;
+    line-height: 45px;
+}
+.f_slider .slick-dots{
+    bottom: 35px;
+}
+.f_slider .slick-dots li{
+    margin: 0 2px;
+}
+.f_slider .slick-dots li button{
+    background-color: transparent;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    border: 4px solid #fff;
+}
+.f_slider .slick-dots li button::before{
+    font-size: 0
+}
+.f_slider .slick-dots li.slick-active button{
+    background-color: #028794
+}
+.about{
+    box-sizing: border-box;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+.about h4{
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-size: 26px;
+    font-weight: 800;
+    color: #028794;
+}
+.about h6{
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #222222;
+    padding-top: 23px;
+}
+/*mmm*/
+.f_service{
+    margin-bottom: 55px;
+    background: url(../images/banner2.jpg) left top no-repeat;
+    background-size: cover;
+    height: 427px;
+    position: relative;
+    z-index: 1;
+    /*    background-attachment: fixed;*/
+}
+.f_service:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(4, 4, 4, 0.80);
+}
+.ser_txt{
+    box-sizing: border-box;
+    padding: 35px 0;
+}
+.ser_txt h4{
+    font-family: "Myriad Pro";
+    font-size: 24.9px;
+    font-weight: 400;
+    color: #028794;
+}
+.ser_txt h5{
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.ser{
+    box-sizing: border-box;
+    padding: 0 14px;
+}
+.ser_s i{
+    height: 50px;
+    width: 50px;
+    background-color: #007582;
+    border-radius: 50%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    line-height: 50px;
+}
+.ser_s h4{
+    padding-left: 10px;
+    display: inline-block;
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 17px;
+    font-weight: 400;
+}
+.ser_s h5{
+    padding-top: 25px;
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+.ser_s span{
+    padding: 0 85px;
+}
+/*mmm*/
+.f_work{
+
+}
+.work_text h4{
+    text-transform: uppercase;
+    font-family: Myriad Pro;
+    font-size: 25px;
+    font-weight: 400;
+    color: #028794;
+}
+.work_text h5{
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+    color: #474849;
+    width: 55%;
+    margin: auto;
+}
+.fil{
+    text-align: center;
+    padding: 40px 0;
+}
+.fil button{
+    text-transform: uppercase;
+    background: transparent;
+    padding: 12px 35px;
+    color: #0b0b0b;
+    font-size: 13px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px -1px;
+    transition: all .5s linear;
+}
+.fil button:hover{
+    color: #ffffff;
+    background: #028794;
+}
+.fil .mixitup-control-active{
+    color: #ffffff;
+    background: #028794;
+}
+.fil_img{
+    padding: 0 0;
+    position: relative;
+}
+.fil_img img{
+    width: 100%;
+}
+.wpicOver{
+    color: #ffffff;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(4, 122, 122, 0.85);
+    line-height: normal;
+    text-align: center;
+    transition: all .6s linear;
+}
+.wpic_o_txt{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.fil_img:hover .wpicOver{
+    opacity: 1;
+    height: 100%;
+}
+.wpicOver h4{
+    text-align: center;
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    padding-bottom: 2px;
+}
+.wpicOver i, p{
+    display: inline-block;
+    font-size: 15px;
+}
+.view_all{
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+.view_all button{
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 12.02px;
+    border: 0;
+    background: #028794;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/*mmm*/
+.f_news{
+
+}
+.news{
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.news_pic img{
+    width: 100%;
+}
+.news_pic_txt{
+    padding-top: 18px;
+    box-sizing: border-box;
+}
+.news_pic_txt h4{
+    font-size: 13px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    color: #2a2b2c;
+}
+.news_pic_txt h5{
+    font-size: 11px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #028794;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+.news_pic_txt p{
+    color: #313233;
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    font-weight: 400;
+    line-height: 18px;
+}
+.newsb button{
+    border: 0;
+    padding: 10px 20px;
+    background: #028794;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+}
+/*mmm*/
+.f_footer{
+    background: #070707;
+}
+.f_top{
+    box-sizing: border-box;
+    padding: 35px 0;
+}
+.fottop{
+    box-sizing: border-box;
+    padding-bottom: 25px;
+}
+.fottop h4{
+    color: #028794;
+    font-size: 19px;
+    font-weight: 400;
+}
+.fottop_li ul li{
+    margin-bottom: 12px;
+}
+.fottop_li ul li span{
+    padding-left: 7px;
+}
+.fottop_li ul li i{
+    color: #028794;
+}
+.fottop_li ul li a{
+    color: white;
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.btfc ul li i{
+    color: white;
+}
+.left span a{
+    padding-left: 14px;
+}
+.fot_bot_l h3{
+    color: white;
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    font-weight: 400;
+}
+.fot_bot_r ul li{
+    display: inline-block;
+}
+.fot_bot_r ul li i{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.fb i{
+    background: #0073bf;
+}
+.tw i{
+    background: #00c9df;
+}
+.yt i{
+    background: #fe5e5e;
+}
+.inta i{
+    background: #01cfe6;
+}
+.gm i{
+    background: #2e9bd6;
+}
+/*stiky menu*/
+.sticky_menu{
+    background: #070707;
+    opacity: .95;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px 0px;
+    transition: all .6s linear;
+}
